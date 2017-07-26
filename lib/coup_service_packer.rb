@@ -1,6 +1,4 @@
 class CoupServicePacker
-  attr_reader :district_scooter_count, :fleet_engineer_capacity, :fleet_engineer_capacity
-
   def initialize(scooters, c, p)
     @district_scooter_count = scooters
     @fleet_manager_capacity = c
